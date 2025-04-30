@@ -1,9 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
-import notes from "../notes";
-import CreateNote from "./CreateNote";
-import ManageNotes from "./ManageNotes";
+import CreateArea from "./CreateArea";
 
 
 
@@ -11,7 +9,7 @@ function App() {
   return (
     <div>
       <Header />
-      {notes.map(CreateNote)}
+      <CreateArea />
       <Footer />
     </div>
   );
